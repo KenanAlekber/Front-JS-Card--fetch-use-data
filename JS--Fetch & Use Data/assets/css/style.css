@@ -1,0 +1,111 @@
+body {
+  background-color: #b8658d;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+#card .card {
+  width: 23.3%;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#card .card .image img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#card .card .content {
+  width: 83%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+#card .card .content .profile img {
+  width: 40%;
+  height: 140px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  border-radius: 50%;
+  position: absolute;
+  top: -16%;
+  left: 29%;
+  transition: 0.5s;
+}
+#card .card .content .profile img:hover {
+  width: 140px;
+  height: 140px;
+}
+#card .card .content .dot {
+  margin-left: 90%;
+}
+#card .card .content .name {
+  line-height: 20px;
+}
+#card .card .content .name h1 {
+  color: rgba(51, 51, 51, 0.956);
+  font-size: 23px;
+  font-weight: 550;
+}
+#card .card .content .name p {
+  color: darkgray;
+  font-size: 17px;
+  text-align: center;
+}
+#card .card .content .follow-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#card .card .content .follow-box .follow b {
+  color: #2D96DD;
+  font-size: 35px;
+  cursor: context-menu;
+}
+#card .card .content .follow-box .follow p {
+  color: darkgray;
+  font-size: 20px;
+}
+#card .card .content a {
+  width: 100%;
+  height: 50px;
+  background-color: #FED01A;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s;
+}
+#card .card .content a:hover {
+  background-color: #a48a20;
+  width: 110%;
+}
+#card .card .content .bio p {
+  font-size: 20px;
+  line-height: 15px;
+  color: black;
+}
+#card .card .content .bio .dev {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

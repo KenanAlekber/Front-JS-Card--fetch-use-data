@@ -1,0 +1,133 @@
+body {
+    background-color: #b8658d;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+    .card {
+        width: 23.3%;
+        height: 600px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+        .image img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .content {
+            width: 83%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+
+            .profile img {
+                width: 40%;
+                height: 140px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                background: #fff;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 70%;
+                border-radius: 50%;
+                position: absolute;
+                top: -16%;
+                left: 29%;
+                transition: 0.5s;
+
+                &:hover {
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+
+            .dot {
+                margin-left: 90%;
+            }
+
+            .name {
+                line-height: 20px;
+
+                h1 {
+                    color: rgba(51, 51, 51, 0.956);
+                    font-size: 23px;
+                    font-weight: 550;
+                }
+
+                p {
+                    color: darkgray;
+                    font-size: 17px;
+                    text-align: center;
+                }
+            }
+
+            .follow-box {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+
+                .follow {
+
+                    b {
+                        color: #2D96DD;
+                        font-size: 35px;
+                        cursor: context-menu;
+                    }
+
+                    p {
+                        color: darkgray;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            a {
+                width: 100%;
+                height: 50px;
+                background-color: #FED01A;
+                font-weight: bold;
+                border-radius: 25px;
+                font-size: 20px;
+                color: #333;
+                cursor: pointer;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                transition: 0.5s;
+
+                &:hover {
+                    background-color: #a48a20;
+                    width: 110%;
+                }
+            }
+
+            .bio {
+                p {
+                    font-size: 20px;
+                    line-height: 15px;
+                    color: black;
+
+                }
+
+                .dev {
+                    text-align: center;
+                }
+            }
+
+        }
+    }
+}
